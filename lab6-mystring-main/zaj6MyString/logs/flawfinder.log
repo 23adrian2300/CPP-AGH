@@ -1,0 +1,2 @@
+/tmp/tmpt7mxz7hm/student/zaj6MyString/mystring.cpp:90:26:  [1] (buffer) mismatch:Function does not check the second iterator for over-read conditions (CWE-126).  This function is often discouraged by most C++ coding standards in favor of its safer alternatives provided since C++14. Consider using a form of this function that checks the second iterator before potentially overflowing it. 
+    std::pair sol = std::mismatch(stext.begin(), stext.end(), stext.begin());

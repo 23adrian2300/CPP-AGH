@@ -1,0 +1,33 @@
+Running main() from /tmp/tmpmcbe_56u/student/zaj1Fraction/tests/lib/googletest/src/gtest_main.cc
+[==========] Running 12 tests from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 12 tests from FractionTester
+[ RUN      ] FractionTester.classFractionExists
+[       OK ] FractionTester.classFractionExists (0 ms)
+[ RUN      ] FractionTester.hasNumeratorAndDenominator
+[       OK ] FractionTester.hasNumeratorAndDenominator (0 ms)
+[ RUN      ] FractionTester.checkIfHasDefaultConstructor
+[       OK ] FractionTester.checkIfHasDefaultConstructor (0 ms)
+[ RUN      ] FractionTester.hasConstructorWhichInitialiseNumeratorAndDenominator
+[       OK ] FractionTester.hasConstructorWhichInitialiseNumeratorAndDenominator (0 ms)
+[ RUN      ] FractionTester.hasGettersAndSetters
+[       OK ] FractionTester.hasGettersAndSetters (0 ms)
+[ RUN      ] FractionTester.hasPrintFunction
+[       OK ] FractionTester.hasPrintFunction (0 ms)
+[ RUN      ] FractionTester.counterOfDestructedFractionsImplemented
+[       OK ] FractionTester.counterOfDestructedFractionsImplemented (0 ms)
+[ RUN      ] FractionTester.saveImplemented
+[       OK ] FractionTester.saveImplemented (0 ms)
+[ RUN      ] FractionTester.loadImplemented
+[       OK ] FractionTester.loadImplemented (0 ms)
+[ RUN      ] FractionTester.fractionNameSettableFromConstructor
+[       OK ] FractionTester.fractionNameSettableFromConstructor (0 ms)
+[ RUN      ] FractionTester.fractionGettersAreConst
+[       OK ] FractionTester.fractionGettersAreConst (0 ms)
+[ RUN      ] FractionTester.fractionConstStaticFieldsImplemented
+[       OK ] FractionTester.fractionConstStaticFieldsImplemented (0 ms)
+[----------] 12 tests from FractionTester (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 12 tests from 1 test suite ran. (0 ms total)
+[  PASSED  ] 12 tests.

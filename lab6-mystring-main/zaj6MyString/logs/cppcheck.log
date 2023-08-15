@@ -1,0 +1,48 @@
+/tmp/tmpt7mxz7hm/student/zaj6MyString/mystring.cpp:207:5: warning: Found an exit path from function with non-void return type that has missing return statement [missingReturn]
+    scapacity = stext.capacity();
+    ^
+/tmp/tmpt7mxz7hm/student/zaj6MyString/mystring.cpp:7:5: warning: Variable 'stext' is assigned in constructor body. Consider performing initialization in initialization list. [useInitializationList]
+    stext = std::string();
+    ^
+/tmp/tmpt7mxz7hm/student/zaj6MyString/mystring.cpp:14:5: warning: Variable 'stext' is assigned in constructor body. Consider performing initialization in initialization list. [useInitializationList]
+    stext = text;
+    ^
+/tmp/tmpt7mxz7hm/student/zaj6MyString/mystring.cpp:21:5: warning: Variable 'stext' is assigned in constructor body. Consider performing initialization in initialization list. [useInitializationList]
+    stext = text;
+    ^
+/tmp/tmpt7mxz7hm/student/zaj6MyString/mystring.h:26:5: warning: Class 'MyString' has a constructor with 1 argument that is not explicit. [noExplicitConstructor]
+    MyString(const char *text);
+    ^
+/tmp/tmpt7mxz7hm/student/zaj6MyString/mystring.cpp:121:22: warning: Consider using std::accumulate algorithm instead of a raw loop. [useStlAlgorithm]
+            mystring += c;
+                     ^
+/tmp/tmpt7mxz7hm/student/zaj6MyString/mystring.cpp:123:22: warning: Consider using std::accumulate algorithm instead of a raw loop. [useStlAlgorithm]
+            mystring += sep;
+                     ^
+/tmp/tmpt7mxz7hm/student/zaj6MyString/mystring.cpp:62:0: warning: The function 'empty' is never used. [unusedFunction]
+bool MyString::empty() const {
+^
+/tmp/tmpt7mxz7hm/student/zaj6MyString/mystring.cpp:117:0: warning: The function 'join' is never used. [unusedFunction]
+MyString MyString::join(const std::vector<MyString> &texts) const {
+^
+/tmp/tmpt7mxz7hm/student/zaj6MyString/mystring.cpp:131:0: warning: The function 'generateRandomWord' is never used. [unusedFunction]
+MyString MyString::generateRandomWord(size_t size) {
+^
+/tmp/tmpt7mxz7hm/student/zaj6MyString/mystring.cpp:142:0: warning: The function 'getUniqueWords' is never used. [unusedFunction]
+std::set<MyString> MyString::getUniqueWords() const {
+^
+/tmp/tmpt7mxz7hm/student/zaj6MyString/mystring.cpp:163:0: warning: The function 'countWordsUsageIgnoringCases' is never used. [unusedFunction]
+std::map<MyString, size_t> MyString::countWordsUsageIgnoringCases() const {
+^
+/tmp/tmpt7mxz7hm/student/zaj6MyString/mystring.cpp:188:0: warning: The function 'startsWith' is never used. [unusedFunction]
+bool MyString::startsWith(std::string str) const {
+^
+/tmp/tmpt7mxz7hm/student/zaj6MyString/mystring.cpp:193:0: warning: The function 'endsWith' is never used. [unusedFunction]
+bool MyString::endsWith(std::string str) const {
+^
+/tmp/tmpt7mxz7hm/student/zaj6MyString/mystring.cpp:200:0: warning: The function 'trim' is never used. [unusedFunction]
+MyString &MyString::trim() {
+^
+/tmp/tmpt7mxz7hm/student/zaj6MyString/mystring.cpp:210:0: warning: The function 'toLower' is never used. [unusedFunction]
+MyString &MyString::toLower() {
+^

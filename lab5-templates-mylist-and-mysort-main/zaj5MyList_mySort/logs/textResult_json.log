@@ -1,0 +1,193 @@
+{
+  "tests": 16,
+  "failures": 0,
+  "disabled": 0,
+  "errors": 0,
+  "timestamp": "2023-06-10T08:19:51Z",
+  "time": "0s",
+  "name": "AllTests",
+  "testsuites": [
+    {
+      "name": "MyListTester",
+      "tests": 11,
+      "failures": 0,
+      "disabled": 0,
+      "errors": 0,
+      "timestamp": "2023-06-10T08:19:51Z",
+      "time": "0s",
+      "testsuite": [
+        {
+          "name": "constructorOfEmptyList_expectedSizeIs0",
+          "file": "\/tmp\/tmptfls06dc\/student\/zaj5MyList_mySort\/tests\/MyListTests.cpp",
+          "line": 44,
+          "status": "RUN",
+          "result": "COMPLETED",
+          "timestamp": "2023-06-10T08:19:51Z",
+          "time": "0s",
+          "classname": "MyListTester"
+        },
+        {
+          "name": "pushingAndPopingElementsFront_expectedSizeIncreasingAndDecreasing",
+          "file": "\/tmp\/tmptfls06dc\/student\/zaj5MyList_mySort\/tests\/MyListTests.cpp",
+          "line": 56,
+          "status": "RUN",
+          "result": "COMPLETED",
+          "timestamp": "2023-06-10T08:19:51Z",
+          "time": "0s",
+          "classname": "MyListTester"
+        },
+        {
+          "name": "pushingAndPopingElementsFront_elementsAreBeingThenAddedRemoved",
+          "file": "\/tmp\/tmptfls06dc\/student\/zaj5MyList_mySort\/tests\/MyListTests.cpp",
+          "line": 80,
+          "status": "RUN",
+          "result": "COMPLETED",
+          "timestamp": "2023-06-10T08:19:51Z",
+          "time": "0s",
+          "classname": "MyListTester"
+        },
+        {
+          "name": "nodesStoredAsUniquePtrs",
+          "file": "\/tmp\/tmptfls06dc\/student\/zaj5MyList_mySort\/tests\/MyListTests.cpp",
+          "line": 104,
+          "status": "RUN",
+          "result": "COMPLETED",
+          "timestamp": "2023-06-10T08:19:51Z",
+          "time": "0s",
+          "classname": "MyListTester"
+        },
+        {
+          "name": "popFromWhenEmptyList_expectedExceptionThrown",
+          "file": "\/tmp\/tmptfls06dc\/student\/zaj5MyList_mySort\/tests\/MyListTests.cpp",
+          "line": 120,
+          "status": "RUN",
+          "result": "COMPLETED",
+          "timestamp": "2023-06-10T08:19:51Z",
+          "time": "0s",
+          "classname": "MyListTester"
+        },
+        {
+          "name": "expectedCopyingDisabled",
+          "file": "\/tmp\/tmptfls06dc\/student\/zaj5MyList_mySort\/tests\/MyListTests.cpp",
+          "line": 142,
+          "status": "RUN",
+          "result": "COMPLETED",
+          "timestamp": "2023-06-10T08:19:51Z",
+          "time": "0s",
+          "classname": "MyListTester"
+        },
+        {
+          "name": "removingElements",
+          "file": "\/tmp\/tmptfls06dc\/student\/zaj5MyList_mySort\/tests\/MyListTests.cpp",
+          "line": 152,
+          "status": "RUN",
+          "result": "COMPLETED",
+          "timestamp": "2023-06-10T08:19:51Z",
+          "time": "0s",
+          "classname": "MyListTester"
+        },
+        {
+          "name": "iteratorOperationsWorks",
+          "file": "\/tmp\/tmptfls06dc\/student\/zaj5MyList_mySort\/tests\/MyListTests.cpp",
+          "line": 190,
+          "status": "RUN",
+          "result": "COMPLETED",
+          "timestamp": "2023-06-10T08:19:51Z",
+          "time": "0s",
+          "classname": "MyListTester"
+        },
+        {
+          "name": "iterationWorksWithRangedForLoop",
+          "file": "\/tmp\/tmptfls06dc\/student\/zaj5MyList_mySort\/tests\/MyListTests.cpp",
+          "line": 210,
+          "status": "RUN",
+          "result": "COMPLETED",
+          "timestamp": "2023-06-10T08:19:51Z",
+          "time": "0s",
+          "classname": "MyListTester"
+        },
+        {
+          "name": "iteratorWorksWithStlAlgorithms",
+          "file": "\/tmp\/tmptfls06dc\/student\/zaj5MyList_mySort\/tests\/MyListTests.cpp",
+          "line": 245,
+          "status": "RUN",
+          "result": "COMPLETED",
+          "timestamp": "2023-06-10T08:19:51Z",
+          "time": "0s",
+          "classname": "MyListTester"
+        },
+        {
+          "name": "ostreamOperator_expectedAllValuesInStream",
+          "file": "\/tmp\/tmptfls06dc\/student\/zaj5MyList_mySort\/tests\/MyListTests.cpp",
+          "line": 265,
+          "status": "RUN",
+          "result": "COMPLETED",
+          "timestamp": "2023-06-10T08:19:51Z",
+          "time": "0s",
+          "classname": "MyListTester"
+        }
+      ]
+    },
+    {
+      "name": "MySortTester",
+      "tests": 5,
+      "failures": 0,
+      "disabled": 0,
+      "errors": 0,
+      "timestamp": "2023-06-10T08:19:51Z",
+      "time": "0s",
+      "testsuite": [
+        {
+          "name": "sortingStaticArray_expectedArraySorted",
+          "file": "\/tmp\/tmptfls06dc\/student\/zaj5MyList_mySort\/tests\/MySortTests.cpp",
+          "line": 47,
+          "status": "RUN",
+          "result": "COMPLETED",
+          "timestamp": "2023-06-10T08:19:51Z",
+          "time": "0s",
+          "classname": "MySortTester"
+        },
+        {
+          "name": "sortingStdVector_expectedContainerSorted",
+          "file": "\/tmp\/tmptfls06dc\/student\/zaj5MyList_mySort\/tests\/MySortTests.cpp",
+          "line": 64,
+          "status": "RUN",
+          "result": "COMPLETED",
+          "timestamp": "2023-06-10T08:19:51Z",
+          "time": "0s",
+          "classname": "MySortTester"
+        },
+        {
+          "name": "sortingMyList_expectedElementsInTheListSorted",
+          "file": "\/tmp\/tmptfls06dc\/student\/zaj5MyList_mySort\/tests\/MySortTests.cpp",
+          "line": 81,
+          "status": "RUN",
+          "result": "COMPLETED",
+          "timestamp": "2023-06-10T08:19:51Z",
+          "time": "0s",
+          "classname": "MySortTester"
+        },
+        {
+          "name": "sortingConstCharPtrAllUpperCases_expectedAllWordsSorted",
+          "file": "\/tmp\/tmptfls06dc\/student\/zaj5MyList_mySort\/tests\/MySortTests.cpp",
+          "line": 102,
+          "status": "RUN",
+          "result": "COMPLETED",
+          "timestamp": "2023-06-10T08:19:51Z",
+          "time": "0s",
+          "classname": "MySortTester"
+        },
+        {
+          "name": "sortingConstCharPtrIgnoreCases_expectedAllWordsSortedDespiteDifferentCases",
+          "file": "\/tmp\/tmptfls06dc\/student\/zaj5MyList_mySort\/tests\/MySortTests.cpp",
+          "line": 119,
+          "status": "RUN",
+          "result": "COMPLETED",
+          "timestamp": "2023-06-10T08:19:51Z",
+          "time": "0s",
+          "classname": "MySortTester"
+        }
+      ]
+    }
+  ]
+}

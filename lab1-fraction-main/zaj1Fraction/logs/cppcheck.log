@@ -1,0 +1,33 @@
+/tmp/tmpmcbe_56u/student/zaj1Fraction/fraction.cpp:36:5: warning: Variable 'fractionName_' is assigned in constructor body. Consider performing initialization in initialization list. [useInitializationList]
+    fractionName_ = std::move(fractionName);
+    ^
+/tmp/tmpmcbe_56u/student/zaj1Fraction/fraction.cpp:50:0: warning: The function 'getNumerator' is never used. [unusedFunction]
+int Fraction::getNumerator() const {
+^
+/tmp/tmpmcbe_56u/student/zaj1Fraction/fraction.cpp:54:0: warning: The function 'getDenominator' is never used. [unusedFunction]
+int Fraction::getDenominator() const {
+^
+/tmp/tmpmcbe_56u/student/zaj1Fraction/fraction.cpp:58:0: warning: The function 'getFractionName' is never used. [unusedFunction]
+string Fraction::getFractionName() const {
+^
+/tmp/tmpmcbe_56u/student/zaj1Fraction/fraction.cpp:66:0: warning: The function 'getDefaultDenominatorValue' is never used. [unusedFunction]
+int Fraction::getDefaultDenominatorValue(){
+^
+/tmp/tmpmcbe_56u/student/zaj1Fraction/fraction.cpp:71:0: warning: The function 'setNumerator' is never used. [unusedFunction]
+void Fraction::setNumerator(int numerator) {
+^
+/tmp/tmpmcbe_56u/student/zaj1Fraction/fraction.cpp:75:0: warning: The function 'setDenominator' is never used. [unusedFunction]
+void Fraction::setDenominator(int denominator) {
+^
+/tmp/tmpmcbe_56u/student/zaj1Fraction/fraction.cpp:82:0: warning: The function 'removedFractions' is never used. [unusedFunction]
+int Fraction::removedFractions() {
+^
+/tmp/tmpmcbe_56u/student/zaj1Fraction/fraction.cpp:92:0: warning: The function 'print' is never used. [unusedFunction]
+void Fraction::print() const {
+^
+/tmp/tmpmcbe_56u/student/zaj1Fraction/fraction.cpp:97:0: warning: The function 'load' is never used. [unusedFunction]
+void Fraction::load(istream &is) {
+^
+/tmp/tmpmcbe_56u/student/zaj1Fraction/fraction.cpp:119:0: warning: The function 'save' is never used. [unusedFunction]
+void Fraction::save(std::ostream &os) const {
+^

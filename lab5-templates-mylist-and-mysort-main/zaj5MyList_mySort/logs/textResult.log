@@ -1,0 +1,44 @@
+Running main() from /tmp/tmptfls06dc/student/zaj5MyList_mySort/tests/lib/googletest/src/gtest_main.cc
+[==========] Running 16 tests from 2 test suites.
+[----------] Global test environment set-up.
+[----------] 11 tests from MyListTester
+[ RUN      ] MyListTester.constructorOfEmptyList_expectedSizeIs0
+[       OK ] MyListTester.constructorOfEmptyList_expectedSizeIs0 (0 ms)
+[ RUN      ] MyListTester.pushingAndPopingElementsFront_expectedSizeIncreasingAndDecreasing
+[       OK ] MyListTester.pushingAndPopingElementsFront_expectedSizeIncreasingAndDecreasing (0 ms)
+[ RUN      ] MyListTester.pushingAndPopingElementsFront_elementsAreBeingThenAddedRemoved
+[       OK ] MyListTester.pushingAndPopingElementsFront_elementsAreBeingThenAddedRemoved (0 ms)
+[ RUN      ] MyListTester.nodesStoredAsUniquePtrs
+[       OK ] MyListTester.nodesStoredAsUniquePtrs (0 ms)
+[ RUN      ] MyListTester.popFromWhenEmptyList_expectedExceptionThrown
+[       OK ] MyListTester.popFromWhenEmptyList_expectedExceptionThrown (0 ms)
+[ RUN      ] MyListTester.expectedCopyingDisabled
+[       OK ] MyListTester.expectedCopyingDisabled (0 ms)
+[ RUN      ] MyListTester.removingElements
+[       OK ] MyListTester.removingElements (0 ms)
+[ RUN      ] MyListTester.iteratorOperationsWorks
+[       OK ] MyListTester.iteratorOperationsWorks (0 ms)
+[ RUN      ] MyListTester.iterationWorksWithRangedForLoop
+[       OK ] MyListTester.iterationWorksWithRangedForLoop (0 ms)
+[ RUN      ] MyListTester.iteratorWorksWithStlAlgorithms
+[       OK ] MyListTester.iteratorWorksWithStlAlgorithms (0 ms)
+[ RUN      ] MyListTester.ostreamOperator_expectedAllValuesInStream
+[       OK ] MyListTester.ostreamOperator_expectedAllValuesInStream (0 ms)
+[----------] 11 tests from MyListTester (0 ms total)
+
+[----------] 5 tests from MySortTester
+[ RUN      ] MySortTester.sortingStaticArray_expectedArraySorted
+[       OK ] MySortTester.sortingStaticArray_expectedArraySorted (0 ms)
+[ RUN      ] MySortTester.sortingStdVector_expectedContainerSorted
+[       OK ] MySortTester.sortingStdVector_expectedContainerSorted (0 ms)
+[ RUN      ] MySortTester.sortingMyList_expectedElementsInTheListSorted
+[       OK ] MySortTester.sortingMyList_expectedElementsInTheListSorted (0 ms)
+[ RUN      ] MySortTester.sortingConstCharPtrAllUpperCases_expectedAllWordsSorted
+[       OK ] MySortTester.sortingConstCharPtrAllUpperCases_expectedAllWordsSorted (0 ms)
+[ RUN      ] MySortTester.sortingConstCharPtrIgnoreCases_expectedAllWordsSortedDespiteDifferentCases
+[       OK ] MySortTester.sortingConstCharPtrIgnoreCases_expectedAllWordsSortedDespiteDifferentCases (0 ms)
+[----------] 5 tests from MySortTester (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 16 tests from 2 test suites ran. (0 ms total)
+[  PASSED  ] 16 tests.

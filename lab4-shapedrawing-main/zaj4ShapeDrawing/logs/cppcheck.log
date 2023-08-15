@@ -1,0 +1,18 @@
+/tmp/tmpjk6o2aa9/student/zaj4ShapeDrawing/shapecomposite.cpp:7:5: warning: Variable 'shape1_' is assigned in constructor body. Consider performing initialization in initialization list. [useInitializationList]
+    shape1_ = std::move(shape1);
+    ^
+/tmp/tmpjk6o2aa9/student/zaj4ShapeDrawing/circle.cpp:22:0: warning: The function 'x' is never used. [unusedFunction]
+int Shapes::Circle::x() const {
+^
+/tmp/tmpjk6o2aa9/student/zaj4ShapeDrawing/circle.cpp:26:0: warning: The function 'y' is never used. [unusedFunction]
+int Shapes::Circle::y() const {
+^
+/tmp/tmpjk6o2aa9/student/zaj4ShapeDrawing/circle.cpp:30:0: warning: The function 'getRadius' is never used. [unusedFunction]
+int Shapes::Circle::getRadius() const {
+^
+/tmp/tmpjk6o2aa9/student/zaj4ShapeDrawing/rectangle.cpp:27:0: warning: The function 'xTo' is never used. [unusedFunction]
+int Shapes::Rectangle::xTo() const {
+^
+/tmp/tmpjk6o2aa9/student/zaj4ShapeDrawing/rectangle.cpp:31:0: warning: The function 'yTo' is never used. [unusedFunction]
+int Shapes::Rectangle::yTo() const {
+^

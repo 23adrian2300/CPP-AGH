@@ -1,0 +1,58 @@
+==163== Memcheck, a memory error detector
+==163== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==163== Using Valgrind-3.18.1 and LibVEX; rerun with -h for copyright info
+==163== Command: /tmp/tmptfls06dc/student/zaj5MyList_mySort/build//bin/tests
+==163== 
+Running main() from /tmp/tmptfls06dc/student/zaj5MyList_mySort/tests/lib/googletest/src/gtest_main.cc
+[==========] Running 16 tests from 2 test suites.
+[----------] Global test environment set-up.
+[----------] 11 tests from MyListTester
+[ RUN      ] MyListTester.constructorOfEmptyList_expectedSizeIs0
+[       OK ] MyListTester.constructorOfEmptyList_expectedSizeIs0 (17 ms)
+[ RUN      ] MyListTester.pushingAndPopingElementsFront_expectedSizeIncreasingAndDecreasing
+[       OK ] MyListTester.pushingAndPopingElementsFront_expectedSizeIncreasingAndDecreasing (21 ms)
+[ RUN      ] MyListTester.pushingAndPopingElementsFront_elementsAreBeingThenAddedRemoved
+[       OK ] MyListTester.pushingAndPopingElementsFront_elementsAreBeingThenAddedRemoved (5 ms)
+[ RUN      ] MyListTester.nodesStoredAsUniquePtrs
+[       OK ] MyListTester.nodesStoredAsUniquePtrs (9 ms)
+[ RUN      ] MyListTester.popFromWhenEmptyList_expectedExceptionThrown
+[       OK ] MyListTester.popFromWhenEmptyList_expectedExceptionThrown (41 ms)
+[ RUN      ] MyListTester.expectedCopyingDisabled
+[       OK ] MyListTester.expectedCopyingDisabled (2 ms)
+[ RUN      ] MyListTester.removingElements
+[       OK ] MyListTester.removingElements (29 ms)
+[ RUN      ] MyListTester.iteratorOperationsWorks
+[       OK ] MyListTester.iteratorOperationsWorks (4 ms)
+[ RUN      ] MyListTester.iterationWorksWithRangedForLoop
+[       OK ] MyListTester.iterationWorksWithRangedForLoop (25 ms)
+[ RUN      ] MyListTester.iteratorWorksWithStlAlgorithms
+[       OK ] MyListTester.iteratorWorksWithStlAlgorithms (16 ms)
+[ RUN      ] MyListTester.ostreamOperator_expectedAllValuesInStream
+[       OK ] MyListTester.ostreamOperator_expectedAllValuesInStream (13 ms)
+[----------] 11 tests from MyListTester (199 ms total)
+
+[----------] 5 tests from MySortTester
+[ RUN      ] MySortTester.sortingStaticArray_expectedArraySorted
+[       OK ] MySortTester.sortingStaticArray_expectedArraySorted (10 ms)
+[ RUN      ] MySortTester.sortingStdVector_expectedContainerSorted
+[       OK ] MySortTester.sortingStdVector_expectedContainerSorted (15 ms)
+[ RUN      ] MySortTester.sortingMyList_expectedElementsInTheListSorted
+[       OK ] MySortTester.sortingMyList_expectedElementsInTheListSorted (29 ms)
+[ RUN      ] MySortTester.sortingConstCharPtrAllUpperCases_expectedAllWordsSorted
+[       OK ] MySortTester.sortingConstCharPtrAllUpperCases_expectedAllWordsSorted (32 ms)
+[ RUN      ] MySortTester.sortingConstCharPtrIgnoreCases_expectedAllWordsSortedDespiteDifferentCases
+[       OK ] MySortTester.sortingConstCharPtrIgnoreCases_expectedAllWordsSortedDespiteDifferentCases (16 ms)
+[----------] 5 tests from MySortTester (105 ms total)
+
+[----------] Global test environment tear-down
+[==========] 16 tests from 2 test suites ran. (358 ms total)
+[  PASSED  ] 16 tests.
+==163== 
+==163== HEAP SUMMARY:
+==163==     in use at exit: 0 bytes in 0 blocks
+==163==   total heap usage: 677 allocs, 677 frees, 147,679 bytes allocated
+==163== 
+==163== All heap blocks were freed -- no leaks are possible
+==163== 
+==163== For lists of detected and suppressed errors, rerun with: -s
+==163== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
